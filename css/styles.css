@@ -1008,6 +1008,39 @@ p {
     }
 }
 
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0.5rem 0;
+        margin-bottom: 1rem;
+    }
+    
+    .navbar-nav {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav-item {
+        padding: 0 10px;
+    }
+    
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    
+    #title {
+        padding: 3% 10% 7%;
+    }
+    
+    .title-image {
+        width: 30%;
+        right: 15%;
+        top: 20%;
+    }
+}
+
 /* Privacy Policy */
 .policy-section {
     margin-bottom: 2rem;
