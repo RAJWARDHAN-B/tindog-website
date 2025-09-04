@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Meet Our Dogs - TinDog</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <!-- CSS StyleSheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+    <!-- Nav Bar -->
+    <nav class="navbar">
+      <a class="navbar-brand" href="index.html">tindog</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="how-it-works.html">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dogs.html">Meet Dogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="success-stories.html">Success Stories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Title -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Meet Amazing Dogs</h1>
+        <p class="lead">Discover your perfect match from our community of lovable dogs!</p>
+        <button type="button" class="btn btn-dark btn-lg download-button"><i class="bi bi-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="bi bi-google-play"></i> Download</button>
+      </div>
+      <div class="col-lg-6">
+        <img class="title-image" src="images/dog-img.jpg" alt="happy-dog">
+      </div>
+    </div>
+  </section>
+
+  <!-- Dogs Listing Section -->
+  <section id="dogs-listing">
+    <div class="container">
+      <h2 class="text-center mb-5">Available Dogs</h2>
+      
+      <div class="row">
+        <!-- Bella - Clickable Card -->
+        <div class="col-lg-4 mb-4">
+          <div class="dog-card clickable" onclick="window.location.href='dog-bella.html'">
+            <div class="dog-image">
+              <img src="images/dog-bella.jpg" alt="Bella" class="img-fluid">
+              <div class="dog-status">Available</div>
+            </div>
+            <div class="dog-info">
+              <h3>Bella</h3>
+              <p class="dog-breed">Golden Retriever</p>
+              <div class="dog-details">
+                <span><i class="bi bi-calendar"></i> 3 years old</span>
+                <span><i class="bi bi-geo-alt"></i> New York, NY</span>
+                <span><i class="bi bi-heart"></i> Loves walks & tennis balls</span>
+              </div>
+              <div class="dog-tags">
+                <span class="tag">Friendly</span>
+                <span class="tag">Active</span>
+                <span class="tag">Good with kids</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Max - Clickable Card -->
+        <div class="col-lg-4 mb-4">
+          <div class="dog-card clickable" onclick="window.location.href='dog-max.html'">
+            <div class="dog-image">
+              <img src="images/dog-max.jpg" alt="Max" class="img-fluid">
+              <div class="dog-status">Available</div>
+            </div>
+            <div class="dog-info">
+              <h3>Max</h3>
+              <p class="dog-breed">Labrador Retriever</p>
+              <div class="dog-details">
+                <span><i class="bi bi-calendar"></i> 2 years old</span>
+                <span><i class="bi bi-geo-alt"></i> Brooklyn, NY</span>
+                <span><i class="bi bi-heart"></i> Enjoys swimming & fetch</span>
+              </div>
+              <div class="dog-tags">
+                <span class="tag">Playful</span>
+                <span class="tag">Water lover</span>
+                <span class="tag">Great companion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Luna - Clickable Card -->
+        <div class="col-lg-4 mb-4">
+          <div class="dog-card clickable" onclick="window.location.href='dog-luna.html'">
+            <div class="dog-image">
+              <img src="images/dog-luna.jpg" alt="Luna" class="img-fluid">
+              <div class="dog-status">Available</div>
+            </div>
+            <div class="dog-info">
+              <h3>Luna</h3>
+              <p class="dog-breed">Husky Mix</p>
+              <div class="dog-details">
+                <span><i class="bi bi-calendar"></i> 4 years old</span>
+                <span><i class="bi bi-geo-alt"></i> Queens, NY</span>
+                <span><i class="bi bi-heart"></i> Loves running & adventures</span>
+              </div>
+              <div class="dog-tags">
+                <span class="tag">Energetic</span>
+                <span class="tag">Adventure seeker</span>
+                <span class="tag">Smart</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Charlie - Regular Card -->
+        <div class="col-lg-4 mb-4">
+          <div class="dog-card">
+            <div class="dog-image">
+              <img src="images/dog-charlie.jpg" alt="Charlie" class="img-fluid">
+              <div class="dog-status">Available</div>
+            </div>
+            <div class="dog-info">
+              <h3>Charlie</h3>
+              <p class="dog-breed">Beagle</p>
+              <div class="dog-details">
+                <span><i class="bi bi-calendar"></i> 5 years old</span>
+                <span><i class="bi bi-geo-alt"></i> Manhattan, NY</span>
+                <span><i class="bi bi-heart"></i> Enjoys sniffing & treats</span>
+              </div>
+              <div class="dog-tags">
+                <span class="tag">Curious</span>
+                <span class="tag">Food motivated</span>
+                <span class="tag">Gentle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Daisy - Regular Card -->
+        <div class="col-lg-4 mb-4">
+          <div class="dog-card">
+            <div class="dog-image">
+              <img src="images/dog-daisy.jpg" alt="Daisy" class="img-fluid">
+              <div class="dog-status">Available</div>
+            </div>
+            <div class="dog-info">
+              <h3>Daisy</h3>
+              <p class="dog-breed">Poodle Mix</p>
+              <div class="dog-details">
+                <span><i class="bi bi-calendar"></i> 3 years old</span>
+                <span><i class="bi bi-geo-alt"></i> Bronx, NY</span>
+                <span><i class="bi bi-heart"></i> Loves cuddles & grooming</span>
+              </div>
+              <div class="dog-tags">
+                <span class="tag">Affectionate</span>
+                <span class="tag">Intelligent</span>
+                <span class="tag">Hypoallergenic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rocky - Regular Card -->
+        <div class="col-lg-4 mb-4">
+          <div class="dog-card">
+            <div class="dog-image">
+              <img src="images/dog-rocky.jpg" alt="Rocky" class="img-fluid">
+              <div class="dog-status">Available</div>
+            </div>
+            <div class="dog-info">
+              <h3>Rocky</h3>
+              <p class="dog-breed">German Shepherd</p>
+              <div class="dog-details">
+                <span><i class="bi bi-calendar"></i> 2 years old</span>
+                <span><i class="bi bi-geo-alt"></i> Staten Island, NY</span>
+                <span><i class="bi bi-heart"></i> Enjoys training & protection</span>
+              </div>
+              <div class="dog-tags">
+                <span class="tag">Loyal</span>
+                <span class="tag">Protective</span>
+                <span class="tag">Trainable</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Load More Button -->
+      <div class="text-center mt-5">
+        <button class="btn btn-outline-dark btn-lg">Load More Dogs</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta">
+    <h3 class="cta-heading">Ready to Meet Your Perfect Match?</h3>
+    <button class="btn btn-lg btn-dark download-button" type="button"><i class="bi bi-apple"></i>Download</button>
+    <button class="btn btn-lg btn-light download-button" type="button"><i class="bi bi-google-play"></i>Download</button>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <i class="bi bi-facebook social-icon"></i>
+    <i class="bi bi-twitter-x social-icon"></i>
+    <i class="bi bi-instagram social-icon"></i>
+    <i class="bi bi-envelope social-icon"></i>
+    <p>© Copyright TinDog</p>
+  </footer>
+
+</body>
+</html>
