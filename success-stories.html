@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <!-- CSS StyleSheets -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -22,44 +21,38 @@
     <div class="container-fluid">
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar">
       <a class="navbar-brand" href="index.html">tindog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="how-it-works.html">How It Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="success-stories.html">Success Stories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="how-it-works.html">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="success-stories.html">Success Stories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+      </ul>
     </nav>
 
     <!-- Title -->
     <div class="row">
       <div class="col-lg-6">
         <h1>Success Stories</h1>
-        <p class="lead">Real stories from real dogs who found love through TinDog!</p>
+        <p class="lead">Real stories from real dogs and their owners who found love through TinDog. These heartwarming tales prove that true friendship knows no bounds!</p>
         <button type="button" class="btn btn-dark btn-lg download-button"><i class="bi bi-apple"></i> Download</button>
         <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="bi bi-google-play"></i> Download</button>
       </div>
@@ -69,115 +62,139 @@
     </div>
   </section>
 
-  <!-- Featured Story -->
+  <!-- Featured Success Story -->
   <section id="featured-story" class="bg-light">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <h2>Featured Success Story</h2>
-          <h3>Bella & Max: A Love Story</h3>
-          <p class="lead">"When I first saw Max's profile on TinDog, I knew he was the one. His owner and I arranged a playdate at Central Park, and the rest is history!"</p>
-          <p>Bella, a 3-year-old Golden Retriever, and Max, a 2-year-old Labrador, met through TinDog in March 2023. They've been inseparable ever since, going on daily walks together and even sharing the same dog bed.</p>
-          <div class="d-flex align-items-center">
-            <img src="images/lady-img.jpg" alt="Bella's Owner" class="rounded-circle me-3" style="width: 50px; height: 50px; object-fit: cover;">
+          <span class="badge bg-primary mb-2">Featured Story</span>
+          <h2>Max & Bella: A Love Story for the Ages</h2>
+          <p class="lead">When Max, a playful Golden Retriever, and Bella, a shy Border Collie, matched on TinDog, their owners never expected the incredible friendship that would blossom.</p>
+          <p>Sarah, Max's owner, was looking for a playmate for her energetic pup. Meanwhile, Mike was hoping to help Bella overcome her shyness. What started as a simple playdate turned into a weekly tradition that transformed both dogs' lives.</p>
+          <div class="d-flex align-items-center mb-3">
+            <img src="images/lady-img.jpg" alt="Sarah" class="rounded-circle me-3" style="width: 40px; height: 40px; object-fit: cover;">
             <div>
-              <strong>Sarah, Bella's Owner</strong><br>
-              <small class="text-muted">New York, NY</small>
+              <strong>Sarah & Mike</strong><br>
+              <small class="text-muted">Max & Bella's owners • 2 years together</small>
             </div>
           </div>
+          <a href="#" class="btn btn-dark">Read Full Story</a>
         </div>
         <div class="col-lg-6 text-center">
-          <img src="images/dog-img.jpg" alt="Bella and Max" class="img-fluid rounded" style="max-width: 400px;">
+          <img src="images/dog-img.jpg" alt="Max and Bella" class="img-fluid rounded" style="max-width: 400px;">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- More Success Stories -->
-  <section id="more-stories">
+  <!-- Success Stories Grid -->
+  <section id="success-stories-grid">
     <div class="container">
-      <h2 class="text-center mb-5">More Happy Tails</h2>
+      <h2 class="text-center mb-5">More Heartwarming Stories</h2>
       
       <div class="row">
         <div class="col-lg-4 mb-4">
-          <div class="story-card p-4 h-100">
-            <div class="text-center mb-3">
-              <img src="images/dog-img.jpg" alt="Story 1" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
-            </div>
-            <h4>Luna & Rocky</h4>
-            <p>"Luna was so shy before meeting Rocky. Now she's the most social dog at the park!"</p>
-            <div class="d-flex align-items-center">
-              <img src="images/lady-img.jpg" alt="Owner" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
-              <small class="text-muted">Jennifer, Los Angeles</small>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 mb-4">
-          <div class="story-card p-4 h-100">
-            <div class="text-center mb-3">
-              <img src="images/dog-img.jpg" alt="Story 2" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
-            </div>
-            <h4>Charlie & Daisy</h4>
-            <p>"Charlie and Daisy are perfect together. They even have matching bandanas now!"</p>
-            <div class="d-flex align-items-center">
-              <img src="images/lady-img.jpg" alt="Owner" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
-              <small class="text-muted">Mike, Chicago</small>
+          <div class="story-card h-100">
+            <img src="images/dog-img.jpg" alt="Story 1" class="img-fluid rounded mb-3" style="width: 100%; height: 200px; object-fit: cover;">
+            <div class="p-3">
+              <span class="badge bg-success mb-2">New Friends</span>
+              <h4>Luna & Rocky: Park Buddies</h4>
+              <p>Two rescue dogs who found each other and formed an unbreakable bond through daily walks and playdates.</p>
+              <div class="d-flex align-items-center mb-3">
+                <img src="images/lady-img.jpg" alt="Owner" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+                <small class="text-muted">Emma & David • 6 months</small>
+              </div>
+              <a href="#" class="btn btn-outline-dark btn-sm">Read More</a>
             </div>
           </div>
         </div>
         
         <div class="col-lg-4 mb-4">
-          <div class="story-card p-4 h-100">
-            <div class="text-center mb-3">
-              <img src="images/dog-img.jpg" alt="Story 3" class="rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
-            </div>
-            <h4>Buddy & Molly</h4>
-            <p>"Buddy was lonely after his brother passed. Molly brought joy back into his life."</p>
-            <div class="d-flex align-items-center">
+          <div class="story-card h-100">
+            <img src="images/dog-img.jpg" alt="Story 2" class="img-fluid rounded mb-3" style="width: 100%; height: 200px; object-fit: cover;">
+            <span class="badge bg-warning mb-2">Training Partners</span>
+            <h4>Charlie & Daisy: Agility Champions</h4>
+            <p>Two high-energy dogs who discovered their passion for agility training together and now compete as a team.</p>
+            <div class="d-flex align-items-center mb-3">
               <img src="images/lady-img.jpg" alt="Owner" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
-              <small class="text-muted">Lisa, Miami</small>
+              <small class="text-muted">Jessica & Tom • 1 year</small>
             </div>
+            <a href="#" class="btn btn-outline-dark btn-sm">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 mb-4">
+          <div class="story-card h-100">
+            <img src="images/dog-img.jpg" alt="Story 3" class="img-fluid rounded mb-3" style="width: 100%; height: 200px; object-fit: cover;">
+            <span class="badge bg-info mb-2">Senior Dogs</span>
+            <h4>Buddy & Molly: Golden Years</h4>
+            <p>Two senior dogs who found companionship in their golden years, proving it's never too late to make new friends.</p>
+            <div class="d-flex align-items-center mb-3">
+              <img src="images/lady-img.jpg" alt="Owner" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+              <small class="text-muted">Robert & Linda • 8 months</small>
+            </div>
+            <a href="#" class="btn btn-outline-dark btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="story-card h-100">
+            <img src="images/dog-img.jpg" alt="Story 4" class="img-fluid rounded mb-3" style="width: 100%; height: 200px; object-fit: cover;">
+            <span class="badge bg-primary mb-2">Long Distance</span>
+            <h4>Cooper & Sadie: Cross-Country Love</h4>
+            <p>Two dogs from opposite coasts who maintain their friendship through regular video calls and annual meetups.</p>
+            <div class="d-flex align-items-center mb-3">
+              <img src="images/lady-img.jpg" alt="Owner" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+              <small class="text-muted">Alex & Rachel • 2 years</small>
+            </div>
+            <a href="#" class="btn btn-outline-dark btn-sm">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 mb-4">
+          <div class="story-card h-100">
+            <img src="images/dog-img.jpg" alt="Story 5" class="img-fluid rounded mb-3" style="width: 100%; height: 200px; object-fit: cover;">
+            <span class="badge bg-secondary mb-2">Special Needs</span>
+            <h4>Oscar & Penny: Overcoming Challenges</h4>
+            <p>Two dogs with special needs who found strength in each other and learned to navigate the world together.</p>
+            <div class="d-flex align-items-center mb-3">
+              <img src="images/lady-img.jpg" alt="Owner" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+              <small class="text-muted">Maria & James • 1.5 years</small>
+            </div>
+            <a href="#" class="btn btn-outline-dark btn-sm">Read More</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 mb-4">
+          <div class="story-card h-100">
+            <img src="images/dog-img.jpg" alt="Story 6" class="img-fluid rounded mb-3" style="width: 100%; height: 200px; object-fit: cover;">
+            <span class="badge bg-danger mb-2">Adventure Buddies</span>
+            <h4>Scout & Willow: Hiking Partners</h4>
+            <p>Two adventurous dogs who discovered their love for hiking together and now explore trails across the country.</p>
+            <div class="d-flex align-items-center mb-3">
+              <img src="images/lady-img.jpg" alt="Owner" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+              <small class="text-muted">Chris & Amanda • 3 years</small>
+            </div>
+            <a href="#" class="btn btn-outline-dark btn-sm">Read More</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Statistics Section -->
-  <section id="stats" class="bg-light">
+  <!-- Share Your Story -->
+  <section id="share-story" class="bg-light">
     <div class="container">
-      <h2 class="text-center mb-5">TinDog by the Numbers</h2>
-      <div class="row text-center">
-        <div class="col-lg-3 col-md-6 mb-4">
-          <i class="icon bi bi-heart-fill mb-3"></i>
-          <h3 class="display-4">1M+</h3>
-          <p>Successful Matches</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-4">
-          <i class="icon bi bi-people-fill mb-3"></i>
-          <h3 class="display-4">500K+</h3>
-          <p>Happy Users</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-4">
-          <i class="icon bi bi-geo-alt-fill mb-3"></i>
-          <h3 class="display-4">50+</h3>
-          <p>Countries</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-4">
-          <i class="icon bi bi-star-fill mb-3"></i>
-          <h3 class="display-4">4.8</h3>
-          <p>App Store Rating</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2>Share Your Success Story</h2>
+          <p class="lead mb-4">Has TinDog helped your dog find a new friend? We'd love to hear about it! Share your story and inspire other dog owners.</p>
+          <a href="contact.html" class="btn btn-dark btn-lg">Share Your Story</a>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section id="cta">
-    <h3 class="cta-heading">Ready to Write Your Own Success Story?</h3>
-    <button class="btn btn-lg btn-dark download-button" type="button"><i class="bi bi-apple"></i>Download</button>
-    <button class="btn btn-lg btn-light download-button" type="button"><i class="bi bi-google-play"></i>Download</button>
   </section>
 
   <!-- Footer -->
@@ -188,8 +205,6 @@
     <i class="bi bi-envelope social-icon"></i>
     <p>© Copyright TinDog</p>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -937,3 +937,51 @@ p {
         height: 60px;
     }
 }
+
+/* Privacy Policy */
+.policy-section {
+    margin-bottom: 2rem;
+}
+
+.policy-section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #FF4C68;
+    padding-bottom: 0.5rem;
+}
+
+.policy-section h3 {
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.policy-section h4 {
+    color: #555;
+    margin-bottom: 0.75rem;
+}
+
+.policy-section p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.policy-section ul {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.policy-section li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info strong {
+    color: #333;
+}
+
+/* FAQ Categories */
+.faq-category {

@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <!-- CSS StyleSheets -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -22,244 +21,264 @@
     <div class="container-fluid">
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar">
       <a class="navbar-brand" href="index.html">tindog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="how-it-works.html">How It Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="success-stories.html">Success Stories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="how-it-works.html">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="success-stories.html">Success Stories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+      </ul>
     </nav>
 
     <!-- Title -->
     <div class="row">
       <div class="col-lg-6">
         <h1>Frequently Asked Questions</h1>
-        <p class="lead">Find answers to the most common questions about TinDog. Can't find what you're looking for? Contact us!</p>
+        <p class="lead">Find answers to the most common questions about TinDog. Can't find what you're looking for? Contact us and we'll be happy to help!</p>
         <button type="button" class="btn btn-dark btn-lg download-button"><i class="bi bi-apple"></i> Download</button>
         <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="bi bi-google-play"></i> Download</button>
       </div>
       <div class="col-lg-6">
-        <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        <img class="title-image" src="images/dog-img.jpg" alt="happy-dog">
       </div>
     </div>
   </section>
 
-  <!-- FAQ Section -->
-  <section id="faq-content">
+  <!-- FAQ Categories -->
+  <section id="faq-categories">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          
-          <!-- Getting Started -->
-          <div class="faq-category mb-5">
-            <h2 class="text-center mb-4"><i class="bi bi-rocket-takeoff me-2"></i>Getting Started</h2>
-            
-            <div class="accordion" id="faqAccordion1">
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading1">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                    How do I create a profile for my dog?
-                  </button>
-                </h2>
-                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#faqAccordion1">
-                  <div class="accordion-body">
-                    Creating a profile is easy! Download the TinDog app, sign up with your email, and then fill out your dog's profile with photos, breed, age, personality traits, and what you're looking for in a match.
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading2">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                    Is TinDog free to use?
-                  </button>
-                </h2>
-                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion1">
-                  <div class="accordion-body">
-                    TinDog offers a free tier with limited features and 5 matches per day. We also have premium plans (Labrador $49/month and Mastiff $99/month) that offer unlimited matches and additional features.
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading3">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                    What information should I include in my dog's profile?
-                  </button>
-                </h2>
-                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion1">
-                  <div class="accordion-body">
-                    Include clear photos of your dog, their breed, age, size, energy level, and personality traits. Also mention any special needs, training level, and what you're looking for in a companion.
-                  </div>
-                </div>
-              </div>
-            </div>
+      <h2 class="text-center mb-5">Browse by Category</h2>
+      <div class="row text-center">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="faq-category p-4 h-100">
+            <i class="icon bi bi-question-circle-fill mb-3"></i>
+            <h4>Getting Started</h4>
+            <p>New to TinDog? Start here!</p>
+            <a href="#getting-started" class="btn btn-outline-dark btn-sm">View Questions</a>
           </div>
-
-          <!-- Safety & Privacy -->
-          <div class="faq-category mb-5">
-            <h2 class="text-center mb-4"><i class="bi bi-shield-check me-2"></i>Safety & Privacy</h2>
-            
-            <div class="accordion" id="faqAccordion2">
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading4">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                    How do you verify profiles?
-                  </button>
-                </h2>
-                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqAccordion2">
-                  <div class="accordion-body">
-                    All profiles go through our verification process, which includes photo verification, email confirmation, and manual review by our team to ensure authenticity and safety.
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading5">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                    Is my personal information safe?
-                  </button>
-                </h2>
-                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqAccordion2">
-                  <div class="accordion-body">
-                    Absolutely! We take your privacy seriously. Your personal information is encrypted and never shared with other users. Only the information you choose to display on your profile is visible to others.
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading6">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                    What should I do if I encounter inappropriate behavior?
-                  </button>
-                </h2>
-                <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#faqAccordion2">
-                  <div class="accordion-body">
-                    If you encounter any inappropriate behavior, please report it immediately through the app or contact our support team. We have a zero-tolerance policy for harassment or inappropriate conduct.
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="faq-category p-4 h-100">
+            <i class="icon bi bi-gear-fill mb-3"></i>
+            <h4>App Features</h4>
+            <p>Learn about app functionality</p>
+            <a href="#app-features" class="btn btn-outline-dark btn-sm">View Questions</a>
           </div>
-
-          <!-- Matching & Communication -->
-          <div class="faq-category mb-5">
-            <h2 class="text-center mb-4"><i class="bi bi-heart-fill me-2"></i>Matching & Communication</h2>
-            
-            <div class="accordion" id="faqAccordion3">
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading7">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                    How does the matching algorithm work?
-                  </button>
-                </h2>
-                <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#faqAccordion3">
-                  <div class="accordion-body">
-                    Our algorithm considers factors like location, breed compatibility, age, energy level, and owner preferences to suggest the best matches for your dog.
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading8">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                    Can I message someone before matching?
-                  </button>
-                </h2>
-                <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#faqAccordion3">
-                  <div class="accordion-body">
-                    No, you can only message users after you've both swiped right on each other's profiles. This ensures mutual interest and prevents unwanted messages.
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading9">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                    What happens after I get a match?
-                  </button>
-                </h2>
-                <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#faqAccordion3">
-                  <div class="accordion-body">
-                    Once you match, you can start chatting! Get to know each other, share more photos, and plan your first meetup at a local dog park or other safe location.
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="faq-category p-4 h-100">
+            <i class="icon bi bi-shield-check-fill mb-3"></i>
+            <h4>Safety & Privacy</h4>
+            <p>Security and privacy information</p>
+            <a href="#safety-privacy" class="btn btn-outline-dark btn-sm">View Questions</a>
           </div>
-
-          <!-- Technical Support -->
-          <div class="faq-category mb-5">
-            <h2 class="text-center mb-4"><i class="bi bi-tools me-2"></i>Technical Support</h2>
-            
-            <div class="accordion" id="faqAccordion4">
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading10">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
-                    The app is not working properly. What should I do?
-                  </button>
-                </h2>
-                <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#faqAccordion4">
-                  <div class="accordion-body">
-                    Try restarting the app first. If the issue persists, check your internet connection, update the app to the latest version, or contact our support team for assistance.
-                  </div>
-                </div>
-              </div>
-              
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="heading11">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
-                    How do I delete my account?
-                  </button>
-                </h2>
-                <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#faqAccordion4">
-                  <div class="accordion-body">
-                    Go to Settings > Account > Delete Account. Please note that this action is permanent and will remove all your data from our servers.
-                  </div>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="faq-category p-4 h-100">
+            <i class="icon bi bi-credit-card-fill mb-3"></i>
+            <h4>Billing & Premium</h4>
+            <p>Pricing and subscription details</p>
+            <a href="#billing-premium" class="btn btn-outline-dark btn-sm">View Questions</a>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Getting Started FAQ -->
+  <section id="getting-started" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Getting Started</h2>
+      
+      <div class="accordion" id="gettingStartedAccordion">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button">
+              How do I create a profile for my dog?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Creating a profile is easy! Download the TinDog app, sign up with your email, and then add your dog's information including photos, breed, age, personality traits, and what you're looking for in a playmate. You can also add multiple dogs to your account.
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button">
+              Is TinDog free to use?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Yes! TinDog offers a free basic plan that allows you to create profiles, browse other dogs, and send a limited number of messages per day. We also offer premium plans with additional features like unlimited messaging, advanced filters, and priority support.
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button">
+              What age should my dog be to use TinDog?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Dogs should be at least 6 months old and fully vaccinated before using TinDog. This ensures they're ready for social interactions and helps maintain a safe environment for all users. Puppies under 6 months are still developing their social skills and may not be ready for playdates.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Features FAQ -->
+  <section id="app-features">
+    <div class="container">
+      <h2 class="text-center mb-5">App Features</h2>
+      
+      <div class="accordion" id="appFeaturesAccordion">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button">
+              How does the matching system work?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Our matching algorithm considers factors like breed compatibility, age, energy level, location, and owner preferences. We use advanced machine learning to suggest the best potential matches for your dog. You can also set specific filters to narrow down your search.
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button">
+              Can I schedule playdates through the app?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Yes! Once you've matched with another dog owner, you can use our built-in scheduling feature to coordinate playdates. You can suggest meeting times, locations, and activities. The app also sends reminders and allows you to share photos from your meetups.
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button">
+              What if my dog doesn't get along with a match?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Not every match will be perfect, and that's okay! You can unmatch with dogs that aren't a good fit. We also provide tips for introducing dogs safely and encourage owners to meet in neutral locations first. Your dog's safety and comfort are our top priorities.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety & Privacy FAQ -->
+  <section id="safety-privacy" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Safety & Privacy</h2>
+      
+      <div class="accordion" id="safetyPrivacyAccordion">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button">
+              How do you verify users and ensure safety?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            We use multiple verification methods including email verification, phone number verification, and social media linking. We also have a reporting system for inappropriate behavior and employ AI-powered content moderation. All users must agree to our community guidelines.
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingEight">
+            <button class="accordion-button collapsed" type="button">
+              Is my personal information protected?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Absolutely! We take privacy seriously and never share your personal information with third parties. Your location is only shared with matches you approve, and you can control what information is visible on your profile. We use industry-standard encryption to protect all data.
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingNine">
+            <button class="accordion-button collapsed" type="button">
+              What should I do if I encounter suspicious behavior?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            If you encounter suspicious behavior, immediately report it through the app's reporting feature. You can also block users and unmatch with them. Our safety team reviews all reports within 24 hours and takes appropriate action. Never share personal information or meet someone who makes you uncomfortable.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Billing & Premium FAQ -->
+  <section id="billing-premium">
+    <div class="container">
+      <h2 class="text-center mb-5">Billing & Premium</h2>
+      
+      <div class="accordion" id="billingPremiumAccordion">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingTen">
+            <button class="accordion-button collapsed" type="button">
+              What's included in the premium plan?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Premium plans include unlimited messaging, advanced search filters, priority customer support, read receipts, and the ability to see who liked your profile. We also offer a premium plus plan with additional features like profile boosts and advanced analytics.
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingEleven">
+            <button class="accordion-button collapsed" type="button">
+              Can I cancel my subscription anytime?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            Yes! You can cancel your subscription at any time through your account settings or by contacting our support team. Your premium features will remain active until the end of your current billing period. We don't charge cancellation fees.
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingTwelve">
+            <button class="accordion-button collapsed" type="button">
+              Do you offer refunds?
+            </button>
+          </h3>
+          <div class="accordion-body">
+            We offer a 7-day money-back guarantee for new premium subscribers. If you're not satisfied with your premium experience within the first week, contact our support team for a full refund. After the trial period, refunds are handled on a case-by-case basis.
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Still Have Questions -->
-  <section id="still-questions" class="bg-light">
+  <section id="still-have-questions" class="bg-light">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h2>Still Have Questions?</h2>
           <p class="lead mb-4">Can't find the answer you're looking for? Our support team is here to help!</p>
-          <a href="contact.html" class="btn btn-dark btn-lg me-3">Contact Support</a>
-          <a href="blog.html" class="btn btn-outline-dark btn-lg">Read Our Blog</a>
+          <a href="contact.html" class="btn btn-dark btn-lg">Contact Support</a>
         </div>
       </div>
     </div>
@@ -274,7 +293,37 @@
     <p>© Copyright TinDog</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    // Accordion functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const accordionButtons = document.querySelectorAll('.accordion-button');
+      
+      accordionButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const accordionItem = this.closest('.accordion-item');
+          const accordionBody = accordionItem.querySelector('.accordion-body');
+          const isExpanded = this.classList.contains('collapsed');
+          
+          // Close all other accordion items
+          document.querySelectorAll('.accordion-item').forEach(item => {
+            if (item !== accordionItem) {
+              item.querySelector('.accordion-button').classList.add('collapsed');
+              item.querySelector('.accordion-body').style.display = 'none';
+            }
+          });
+          
+          // Toggle current accordion item
+          if (isExpanded) {
+            this.classList.remove('collapsed');
+            accordionBody.style.display = 'block';
+          } else {
+            this.classList.add('collapsed');
+            accordionBody.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
 
 </body>
 </html>
